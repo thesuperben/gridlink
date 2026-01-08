@@ -4,8 +4,6 @@
 
 GridLink is a distributed, AI-powered strategy platform that runs locally on your machine but connects your entire team. It replaces generic spreadsheets with live, actionable intelligence.
 
-![GridLink Overlay](/frontend/public/GL_Discord.png)
-
 ## 🏁 Key Features
 
 *   **🎙️ AI Race Engineer**: Real-time voice coaching and strategy advice powered by Gemini Flash 2.5. Uses live telemetry to predict tire wear and fuel stints.

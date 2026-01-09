@@ -26,16 +26,14 @@ GridLink is a distributed, AI-powered strategy platform that runs locally on you
 2.  Ensure you have **[Docker Desktop](https://www.docker.com/products/docker-desktop/)** installed and running.
 
 ### 2. Start the Engine
-Double-click **`run_gridlink.bat`** in the root folder.
-*   This script will automatically pull the latest updates, build the containers, and launch the application.
-*   Access the dashboard at: **`http://localhost:8000`**
+Open the GridLink_Release.zip file
+Double-click **`GridLink.exe`** file.
+*   This script will automatically pull the latest updates, build the containers, launch the web application and run the relay which talks to iRacing.
+*   Access the dashboard at: **`http://localhost`**
 
 ### 3. Connect iRacing
-1.  Open the Dashboard (`http://localhost:8000`).
-2.  Go to **Settings** and download the **Windows Relay**.
-3.  Run the Relay application while iRacing is open to start feeding data.
-
-For detailed setup instructions, see [INSTALL.md](INSTALL.md).
+1.  Run iRacing
+2.  The application will automatically connect and you will see data populated in the logs
 
 ---
 
@@ -50,7 +48,7 @@ For detailed setup instructions, see [INSTALL.md](INSTALL.md).
 
 *   **No Sensitive Keys Needed**: The application is built to run without you needing to manage API keys.
 *   **Billing & AI**: Handled securely via serverless functions.
-*   **Local-First**: Telemetry data flows from your Sim -> Your Local Docker Container. It is not sent to a central cloud unless you explicitly share it.
+*   **Privacy First**: Your data is your own and we do not sell it. When you terminate your account, all associated data is purged.
 
 ---
 

@@ -15,7 +15,6 @@ GridLink provides a low-latency Heads Up Display (HUD) overlay that you can easi
 4.  Scroll down to the **SimHub Overlay URL** section.
 5.  Click the **COPY** button to copy your unique overlay URL to your clipboard.
 
-![Screenshot: GridLink Settings Page - General Tab showing Overlay URL Section](./assets/overlay_settings.png)
 ![alt text](image.png)
 
 ## Step 2: Create a Browser Overlay in SimHub
@@ -27,7 +26,6 @@ GridLink provides a low-latency Heads Up Display (HUD) overlay that you can easi
     - Give it a name, e.g., "GridLink HUD".
     - Click **OK**.
 
-![Screenshot: SimHub Dash Studio - Creating New Overlay](./assets/simhub_new_overlay.png)
 ![alt text](image-1.png)
 
 ## Step 3: Add the Web Browser Source
@@ -39,7 +37,6 @@ GridLink provides a low-latency Heads Up Display (HUD) overlay that you can easi
 5.  Find the **Url** field.
 6.  **Paste** the GridLink URL you copied in Step 1.
 
-![Screenshot: SimHub Editor - Web Page Component Properties](./assets/simhub_web_component.png)
 ![alt text](image-2.png)
 
 ## Step 4: Finalize and Test
@@ -55,3 +52,4 @@ GridLink provides a low-latency Heads Up Display (HUD) overlay that you can easi
 2.  Click **"New Layout"** or ensure it is added to your active layout.
 3.  Click **"Edit Layout"** to manually position it on your screen, placing it in the top left and dragging it out to the size of your monitor.
 4.  Start your game! The overlay will appear automatically.
+
